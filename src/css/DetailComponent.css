@@ -1,0 +1,43 @@
+
+  /* Container chính */
+  .detail-container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Tiêu đề */
+  .detail-container h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4CAF50;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Thẻ card chi tiết */
+  .detail-card {
+    text-align: left;
+  }
+  
+  .detail-card p {
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0;
+  }
+  
+  .detail-card p strong {
+    color: #4CAF50;
+  }
+  
+  /* Hiệu ứng hover cho card */
+  .detail-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+  }
+  

@@ -1,0 +1,97 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Nguyễn Trúc Linh",
+      "phone": "0987654321",
+      "email": "truclinhnguyen@gmail.com",
+      "gender": "Nữ",
+      "interest": [
+        "Đọc sách",
+        "Nghe nhạc"
+      ],
+      "location": {
+        "id": 1,
+        "name": "Quảng Nam"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Bảo Ngân",
+      "phone": "0987654321",
+      "email": "ngannguyen@gmail.com",
+      "gender": "Nữ",
+      "interest": "Đọc sách",
+      "location": {
+        "id": 1,
+        "name": "Quảng Nam"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Văn Thanh Tuấn",
+      "phone": "0987654321",
+      "email": "thanhtuan@gmail.com",
+      "gender": "Nam",
+      "interest": "Đọc sách",
+      "location": {
+        "id": 1,
+        "name": "Quảng Nam"
+      }
+    },
+    {
+      "name": "Linh Nguyen",
+      "phone": "643",
+      "email": "linh@gmail.com",
+      "gender": "Nữ",
+      "interest": [
+        "Nghe nhạc"
+      ],
+      "location": {
+        "id": 3,
+        "name": "Huế"
+      },
+      "id": 4
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "name": "Quảng Nam"
+    },
+    {
+      "id": 2,
+      "name": "Đà Nẵng"
+    },
+    {
+      "id": 3,
+      "name": "Huế"
+    },
+    {
+      "id": 4,
+      "name": "Quảng Ngãi"
+    },
+    {
+      "id": 5,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 6,
+      "name": "Quảng Bình"
+    }
+  ],
+  "accounts":[
+    {
+      "id":1,
+      "username":"Admin",
+      "password":"123",
+      "role": "Admin"
+    },
+  {
+    "id":2,
+    "username":"Linh",
+    "password":"123",
+    "role": "User"
+}
+  ]
+}
